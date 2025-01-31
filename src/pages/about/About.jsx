@@ -1,8 +1,8 @@
-import React from 'react';
+//import React from 'react';
 import Info from '../../components/Info';
 import Stats from '../../components/Stats';
 import { FaDownload } from 'react-icons/fa';
-import CV from "../../assets/steve-Cv.pdf";
+import CV from "../../assets/muhila-Cv.pdf";
 import "../../pages/about/about.css";
 import Skills from '../../components/Skills';
 import { resume } from '../../data';

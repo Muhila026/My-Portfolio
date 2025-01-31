@@ -122,27 +122,27 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '+2',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '+5',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '+10',
     title: 'Happy <br /> Customers',
   },
 
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
+  // {
+  //   id: 4,
+  //   no: '53+',
+  //   title: ' Awards <br /> Won',
+  // },
 ];
 
 export const resume = [
@@ -151,8 +151,8 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2025 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    title: 'Intern - Full Stack Development <span> Coderason </span>',
+    desc: 'Gained hands-on experience in full stack development, working on real-world projects and enhancing coding skills.',
   },
 
   // {
@@ -178,8 +178,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    title: 'O/L Graduate <span> J/Vadahindu Girls School </span>',
+    desc: 'Completed Ordinary Level (O/L) education with a strong academic foundation.',
   },
 
   {
@@ -187,8 +187,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2021',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    title: 'A/L Graduate <span> J/Vadahindu Girls School </span>',
+    desc: 'Completed Advanced Level (A/L) education with a focus on core subjects.',
   },
 
   {
@@ -196,8 +196,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2023',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    title: 'HND in Software Engineering <span> BCAS Campus Jaffna </span>',
+    desc: 'Earned a Higher National Diploma (HND) in Software Engineering, gaining expertise in software development and IT concepts.',
   },
 ];
 
@@ -220,29 +220,29 @@ export const skills = [
     percentage: '70',
   },
 
-  // {
-  //   id: 4,
-  //   title: 'Php',
-  //   percentage: '66',
-  // },
+  {
+    id: 4,
+    title: 'MySQL',
+    percentage: '76',
+  },
 
-  // {
-  //   id: 5,
-  //   title: 'Wordpress',
-  //   percentage: '95',
-  // },
+  {
+    id: 5,
+    title: 'Bootstrap5',
+    percentage: '85',
+  },
 
-  // {
-  //   id: 6,
-  //   title: 'Jquery',
-  //   percentage: '50',
-  // },
+  {
+    id: 6,
+    title: 'Node js',
+    percentage: '50',
+  },
 
-  // {
-  //   id: 7,
-  //   title: 'Angular',
-  //   percentage: '65',
-  // },
+  {
+    id: 7,
+    title: 'C#',
+    percentage: '65',
+  },
 
   {
     id: 8,
@@ -255,22 +255,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Web Design',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Around Lanka Touriusm',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Muhila',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html,Css,Js',
       },
       {
         icon: <FiExternalLink />,
@@ -283,22 +283,22 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Pos Design',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Royal Book Shop',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Muhila',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Java',
       },
       {
         icon: <FiExternalLink />,
@@ -311,22 +311,22 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Console Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Clinic Appoitment Slot',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Muhila',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Java',
       },
       {
         icon: <FiExternalLink />,

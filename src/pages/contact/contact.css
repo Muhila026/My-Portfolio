@@ -13,6 +13,12 @@
     line-height: 1.6;
 }
 
+.form__result {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+  }
+
 .contact__description,
 .contact__info .info__item{
     margin-bottom: 20px;

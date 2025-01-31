@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import Profile from "../../assets/home.jpg";
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
@@ -11,7 +11,7 @@ const Home = () => {
 
       <div className="home__content">
        <div className="home__data">
-         <h1 className="home__title"><span>I'm Miss Muhila Vijayakumar.</span> Frontend Developer
+         <h1 className="home__title"><span>Im Miss Muhila Vijayakumar.</span> Frontend Developer
          </h1>
 
          <p className="home__description">
