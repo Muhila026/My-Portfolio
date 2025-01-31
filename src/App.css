@@ -192,27 +192,3 @@ img {
     line-height: 60px ;
 
 }
-
-@media screen and (min-width:576px){
-    .theme__img{
-        width:25px;
-    }
-
-    .style__switcher-toggler,
-    .theme__toggler{
-        width:40px;
-        height:40px;
-    }
-
-    .style__switcher-toggler{
-        top:15%;
-    }
-
-    .theme__toggler{
-        bottom: 15%
-    }
-
-    .theme__switcher-close{
-        top:5%
-    }
-}
