@@ -11,15 +11,14 @@ const Home = () => {
 
       <div className="home__content">
        <div className="home__data">
-         <h1 className="home__title"><span>Im Miss Muhila Vijayakumar.</span> Frontend Developer
+         <h1 className="home__title"><span>Im Miss Muhila Vijayakumar.</span><br/> Full Stack Developer
          </h1>
 
          <p className="home__description">
-           Enthusiastic and dedicated Frontend Developer with a strong foundation
-           in HTML, CSS, JavaScript, and modern frameworks like React.js. 
-           Passionate about crafting responsive, user-friendly interfaces and 
-           enhancing web accessibility. Continuously learning and adapting to 
-           the latest UI/UX trends to deliver seamless digital experiences.
+         A passionate Full Stack Developer skilled in both frontend and backend
+         technologies. Experienced in building user-focused applications using
+         React.js, Java, and Spring Boot. Continuously learning and staying updated with industry trends to deliver scalable and innovative software
+    solutions
           </p>
 
         <Link to ='/about' className='button'>

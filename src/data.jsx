@@ -115,28 +115,28 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Langages : ',
-    description: 'Tamil, English',
+    description: 'Tamil (Native), English (Fluent)',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '+2',
-    title: 'Years of <br /> Experience',
+    no: '6',
+    title: 'Months of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '+5',
+    no: '+3',
     title: 'Completed <br /> Projects',
   },
 
-  {
-    id: 3,
-    no: '+10',
-    title: 'Happy <br /> Customers',
-  },
+  // {
+  //   id: 3,
+  //   no: '+10',
+  //   title: 'Happy <br /> Customers',
+  // },
 
   // {
   //   id: 4,
@@ -150,7 +150,7 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2025 - PRESENT',
+    year: '2025 Jan-June',
     title: 'Intern - Full Stack Development <span> Coderason </span>',
     desc: 'Gained hands-on experience in full stack development, working on real-world projects and enhancing coding skills.',
   },
@@ -174,7 +174,7 @@ export const resume = [
   // },
 
   {
-    id: 4,
+    id: 2,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018',
@@ -183,7 +183,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 3,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2021',
@@ -192,12 +192,21 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 4 ,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2023',
     title: 'HND in Software Engineering <span> BCAS Campus Jaffna </span>',
     desc: 'Earned a Higher National Diploma (HND) in Software Engineering, gaining expertise in software development and IT concepts.',
+  },
+
+  {
+    id: 5,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2025',
+    title: 'BSc (Hons) Software Engineering <span> ICBT Campus Jaffna  </span>',
+    desc: 'Earned a Bachelor of Science (Hons) in Software Engineering, gaining expertise in software development and IT concepts.',
   },
 ];
 
@@ -205,7 +214,7 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '85',
+    percentage: '95',
   },
 
   {
@@ -217,13 +226,13 @@ export const skills = [
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '90',
   },
 
   {
     id: 4,
     title: 'MySQL',
-    percentage: '76',
+    percentage: '80',
   },
 
   {
@@ -240,7 +249,7 @@ export const skills = [
 
   {
     id: 7,
-    title: 'C#',
+    title: 'Angular',
     percentage: '65',
   },
 
