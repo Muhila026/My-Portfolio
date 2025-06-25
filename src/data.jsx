@@ -256,7 +256,19 @@ export const skills = [
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '75',
+  },
+
+  {
+    id: 9,
+    title: 'Java',
+    percentage: '85',
+  },
+
+  {
+    id: 10,
+    title: 'Spring Boot',
+    percentage: '70',
   },
 ];
 
